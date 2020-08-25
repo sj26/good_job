@@ -9,7 +9,6 @@ module GoodJob # :nodoc:
     POOL_OPTIONS = {
       min_threads: 0,
       max_threads: 1,
-      auto_terminate: true,
       idletime: 60,
       max_queue: 1,
       fallback_policy: :discard,
